@@ -26,6 +26,3 @@ jobs:  # Задачи пайплайна
 
       - name: Build project  # Сборка проекта
         run: npm run build
-
-      - name: Test (optional)  # Проверка работоспособности
-        run: npm run preview -- --port 8080 || echo "No tests defined"
