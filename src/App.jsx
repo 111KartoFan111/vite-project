@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Opens from './components/Opens';
 import Sidebar from "./components/Sidebar";
 import './App.css';
-import Closebut from './components/CLOSEBUT';
+import Closebut from './components/Closebut';
 
 
 function App() {
