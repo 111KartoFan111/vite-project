@@ -11,7 +11,7 @@
   
   .welcome-section p {
     font-size: 1.2em;
-    color: white;
+    color: white !important;
   }
   
   .welcome-section button {
@@ -27,6 +27,3 @@
   .welcome-section button:hover {
     background-color: #0056b3;
   }
-.textr{
-color: white !important;
-}
