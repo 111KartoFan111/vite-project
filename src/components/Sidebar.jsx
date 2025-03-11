@@ -9,7 +9,7 @@ function Sidebar({ isOpen, children }) {
         <div className="sidebar-content">
           {children}
           <h2>Sidebar Content</h2>
-          <p>Это выдвижная панель с левой стороны</p>
+          <p className="textp">Это выдвижная панель с левой стороны</p>
         </div>
       </div>
       {isOpen && <div className="sidebar-overlay" />}
